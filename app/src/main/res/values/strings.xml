@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Swift Browser</string>
+    <string name="download_started">Download started</string>
+    <string name="download_completed">Download completed</string>
+    <string name="download_failed">Download failed</string>
+    <string name="storage_permission_required">Storage permission required</string>
+    <string name="no_video_id_found">No video ID found</string>
+    <string name="unsupported_live_stream">Unsupported live stream</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_pause">Pause</string>
+    <string name="action_resume">Resume</string>
+    <string name="action_open_file">Open File</string>
+    <string name="action_open_folder">Open Folder</string>
+    <string name="action_diagnostics">Diagnostics</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="108"
+                android:endY="108"
+                android:startX="0"
+                android:startY="0"
+                android:type="linear">
+                <item
+                    android:color="#0F0C24"
+                    android:offset="0.0" />
+                <item
+                    android:color="#1A153A"
+                    android:offset="0.5" />
+                <item
+                    android:color="#2B1F4E"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Elegant subtle star background grid or particles -->
+    <path
+        android:fillColor="#3303DAC5"
+        android:pathData="M15,20h1v1h-1z M30,50h1v1h-1z M80,25h1v1h-1z M90,75h1v1h-1z M25,85h1v1h-1z M70,80h1v1h-1z M54,15h1v1h-1z M85,45h1v1h-1z" />
+</vector>

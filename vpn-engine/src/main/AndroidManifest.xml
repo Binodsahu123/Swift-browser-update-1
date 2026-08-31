@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.swift.browser.vpnengine">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Standard VPN permission -->
+    <uses-permission android:name="android.permission.BIND_VPN_SERVICE" />
+
+    <application>
+        <activity
+            android:name=".VpnEngineActivity"
+            android:exported="true">
+            <!-- No intent filter needed for main launcher unless requested, usually called via explicit intent -->
+        </activity>
+        <service
+            android:name=".service.SwiftVpnService"
+            android:permission="android.permission.BIND_VPN_SERVICE"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.net.VpnService" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

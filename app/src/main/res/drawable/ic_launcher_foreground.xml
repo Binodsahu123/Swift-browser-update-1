@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Glowing Browser Globe / Orbit lines -->
+    <!-- Circular outer border of browser -->
+    <path
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M54,24 A30,30 0 1,1 53.9,24 Z"
+        android:strokeColor="#FF03DAC5" />
+
+    <!-- Tilted inner orbit ring -->
+    <path
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M26,62 C34,74 74,34 82,46 C90,58 50,98 26,62 Z"
+        android:strokeColor="#FFBB86FC" />
+
+    <!-- Swift Belt Star 1 (Left-Bottom) -->
+    <!-- 4-point star shape centered at (44, 60) -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M44,53 L46,58 L51,60 L46,62 L44,67 L42,62 L37,60 L42,58 Z" />
+
+    <!-- Swift Belt Star 2 (Center) - Larger glowing star -->
+    <!-- 4-point star shape centered at (54, 54) -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M54,44 L56.5,51.5 L64,54 L56.5,56.5 L54,64 L51.5,56.5 L44,54 L51.5,51.5 Z" />
+
+    <!-- Swift Belt Star 3 (Right-Top) -->
+    <!-- 4-point star shape centered at (64, 48) -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M64,41 L66,46 L71,48 L66,50 L64,55 L62,50 L57,48 L62,46 Z" />
+
+    <!-- Subtle constellation connecting lines -->
+    <path
+        android:strokeWidth="1"
+        android:pathData="M44,60 L54,54 L64,48"
+        android:strokeColor="#80FFFFFF" />
+
+</vector>

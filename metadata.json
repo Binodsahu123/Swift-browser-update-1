@@ -1,0 +1,8 @@
+{
+  "name": "Orion Browser 88",
+  "description": "Orion Browser with WebExtensions Engine and Chrome API Adapters",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
